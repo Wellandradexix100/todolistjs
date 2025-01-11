@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: block;
+  flex-direction: column;
+  max-height: 100vh;
+  background-color: bisque;
+}
+
+header h1 {
+  padding: 0.5rem;
+  max-width: 100%;
+  max-height: fit-content;
+  background-color: gray;
+  color: white;
+  font-family: sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#list {
+  width: 300px;
+  height: 400px;
+  background-color: rgba(128, 128, 128, 0.473);
+}
+
+#entrada-texto {
+  text-align: center;
+  width: 50%;
+  height: 2em;
+  border-radius: 10rem;
+  padding: 0.5rem;
+  border: solid 0.15rem blueviolet;
+  margin: 1rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: #d6ff77;
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 10rem;
+  color: rgb(0, 0, 0);
+  margin: 0.7rem;
+  padding: 0.5rem;
+  font-family: cursive;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #f89d15;
+  transform: scale(1.1);
+}
+
+.tarefa-item {
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.btn-del {
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  padding: 0.3rem;
+  border: none;
+  max-width: fit-content;
+  max-height: fit-content;
+  text-transform: uppercase;
+  color: red;
+  background-color: transparent;
+}
+
+.btn-del:hover {
+  color: blue;
+}
+
+.tarefa-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  word-wrap: break-word;
+}
+
+.tarefa-container .btn-del {
+  margin-left: 10px;
+}

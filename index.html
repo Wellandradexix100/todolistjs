@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Lista de tarefas</title>
+  </head>
+  <body>
+    <header>
+      <h1>LISTA DE TAREFAS!</h1>
+    </header>
+    <main>
+      <section id="container">
+        <input
+          type="text"
+          id="entrada-texto"
+          title="entrada de tarefas"
+          placeholder="Digite aqui sua tarefa e adicione"
+        />
+        <button title="add tarefa" class="btn" onclick="adicionarTarefa()">
+          Adicionar Tarefa!
+        </button>
+        <div id="list"></div>
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
