@@ -28,7 +28,7 @@ header h1 {
 }
 #list {
   width: 300px;
-  height: 400px;
+  height: fit-content;
   background-color: rgba(128, 128, 128, 0.473);
 }
 
